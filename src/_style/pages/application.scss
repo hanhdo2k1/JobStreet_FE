@@ -1,0 +1,66 @@
+.container--modal{
+    position: absolute;
+    padding-top: 50px;
+    width: 500px;
+    height: 550px;
+    margin: auto;
+    box-shadow: 8px 8px 22px 0px rgb(8, 132, 18);
+    left: 35%;
+    top: 10%;
+    background: #26AE61;
+    border-radius: 5px;
+}
+.modal--title{
+    height: 60px;
+    margin-left: 20px;
+    
+    // h3{
+    //     color: aliceblue;
+    //     margin-left: 40px;
+    //     margin-top: -20px;
+    //     padding-bottom: 200px;
+    //     span{
+    //         color:black;
+    //     }
+    // }
+}
+.modal--form{
+    width: 450px;
+    margin-left: 20px;
+}
+.form--values{
+    height: 50px;
+}
+.form--value--email{
+    height: 50px;
+}
+.form--button--application{
+    display: flex;
+    justify-content: center;
+    
+    .modal--submit{
+        height: 35px;
+        color: #ffff;
+        background-color: #00AAFF;
+        margin-left: -20px;
+        row-gap: 20px;
+    }
+    .modal--submit:hover{
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: green;
+    }
+    .modal--cancel{
+        height: 35px;
+        color: #ffff;
+        width: 100px;
+       margin-left: 30px;
+       background-color: #00AAFF;
+    }
+    .modal--cancel:hover{
+        background-color:rgb(178, 52, 7);;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+}

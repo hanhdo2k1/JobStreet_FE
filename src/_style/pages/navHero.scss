@@ -1,0 +1,106 @@
+.hero_section {
+  margin-left: 50px;
+
+  .hero-data {
+    display: flex;
+    align-items: center;
+
+    .left {
+      width: calc(100% - 150px); /* Đặt kích thước của phần bên trái với lề phải là 150px */
+      display: flex;
+      margin-top: 20px;
+      align-items: center;
+      box-shadow: 1px 1px 1px 1px black;
+      height: 200px;
+      margin-left: 50px;
+      line-height: 30px;
+
+      .icon {
+        margin-right: 10px;
+        margin-left: 20px;
+
+        img {
+          width: 40px; /* Kích thước logo lớn */
+        }
+      }
+
+      .details {
+        h1 {
+          font-size: 28px; /* Kích thước của tên vị trí công việc */
+          margin-bottom: 5px;
+          margin-left: 0px;
+        }
+
+        .company {
+          span {
+            font-size: 18px; /* Kích thước tên công ty */
+            color: #00aaff; /* Màu xanh cho tên công ty */
+            margin-bottom: 10px;
+          }
+        }
+
+        .posted {
+          // display: flex;
+          align-items: center;
+          font-size: 15px;
+          color: #302f2f; /* Màu chữ cho địa chỉ và ngày đóng đơn */
+          margin-top: 5px;
+
+          .country {
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+
+            svg {
+              margin-right: 5px; /* Khoảng cách giữa icon và địa chỉ */
+            }
+          }
+
+          .date {
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+
+            svg {
+              margin-right: 5px; /* Khoảng cách giữa icon và ngày đóng đơn */
+            }
+          }
+        }
+      }
+    }
+
+    .right {
+      // padding-left:px;
+      margin-left: 400px;
+      width: 150px;
+      height: 100px;
+      border-radius: 8px;
+      background: #26ae61;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      animation: moveAmount 4s infinite alternate; /* Thêm hiệu ứng di chuyển cho cục tiền lương */
+
+      .amount {
+        margin-top: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+
+        h2 {
+          font-size: 18px; /* Kích thước lương hàng tháng */
+        }
+      }
+    }
+  }
+}
+
+@keyframes moveAmount {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50px); /* Di chuyển cục tiền lương sang trái 10px */
+  }
+}

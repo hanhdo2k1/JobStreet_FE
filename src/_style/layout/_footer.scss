@@ -1,0 +1,136 @@
+.footer__section {
+    background: #24324a;
+  background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),
+  url('https://images.careerbuilder.vn/content/images/ghi-diem-voi-nha-tuyen-dung-ngay-khi-phong-van-careerbuilder2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+  opacity: 1;
+  height: 100%;
+    &__container {
+        // @include container;
+
+        &__footer {
+            margin-top: 3rem;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column-gap: 0.5rem;
+            padding: 3rem 0;
+            width: 90%;
+            &__info {
+                width: 285px;
+                height: auto;
+                margin-left: 9rem;
+
+                p {
+                    margin-top: 1rem;
+                   
+                    color: #6c757d;
+                }
+            }
+
+            &__links {
+                h1 {
+                    color:#FFFFFF;
+                    margin-left: 5rem;
+                }
+
+                p {
+                    color: #6c757d;
+                   
+                }
+
+                &--quick {
+                    a {
+                        margin-top: 1rem;
+                        display: block;
+                        color: #6c757d;
+                        margin-left: 7rem;
+                    }
+                }
+            }
+
+            &__conditions {
+                h1 {
+                    color: #FFFFFF;
+                }
+
+                &--links {
+                    a {
+                        margin-top: 1rem;
+                        display: block;
+                        color: #6c757d;
+                        margin-left: 3rem;
+                    }
+                }
+            }
+
+            &__subscribe {
+
+                h1 {
+                    color: #FFFFFF;
+                }
+
+                p {
+                    color: #6c757d;
+                }
+
+                &__form {
+                    margin-top: 1rem;
+                    display: flex;
+
+                    input {
+                        width: 100%;
+                        height: 35px;
+                        padding: 0 20px;
+                        font-size: 12px;
+                        border-top-left-radius: 30px;
+                        border-bottom-left-radius: 30px;
+                        border: 1px solid #c5bdbd;
+                        transition: all .3s;
+                    }
+
+                    button {
+                        width: 35%;
+                        text-align: center;
+                        height: 35px;
+                        padding: 0 20px;
+                        font-size: 12px;
+                        border-top-right-radius: 30px;
+                        border-bottom-right-radius: 30px;
+                        border: 1px solid #c5bdbd;
+                        transition: all .3s;
+                        cursor: pointer;
+                    }
+                }
+
+                &__social-links {
+                    margin-top: 1rem;
+                    font-size: 1.6rem;
+                    display: flex;
+
+                    a {
+                        .fa-facebook {
+                            color: rgb(82, 82, 240);
+                        }
+
+                        .fa-linkedin {
+                            color: rgb(47, 47, 219);
+                        }
+
+                        .fa-twitter {
+                            color: rgb(12, 233, 203);
+                        }
+                    }
+
+                    a+a {
+                        margin-left: 1.5rem;
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,130 @@
+.blog-post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+}
+
+.blog-post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.blog-post-avatar-container {
+    /* Thiết lập kích thước và vị trí của avatar */
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.blog-post-avatar {
+    /* Tùy chỉnh kích thước hình ảnh avatar */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-post-title {
+    /* Tùy chỉnh kiểu và kích thước của tiêu đề */
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #333;
+}
+
+.blog-post-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.blog-post-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.blog-post-content {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+
+
+.text {
+    display: block;
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.submit {
+    display: block;
+    width: 10%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    /* Add margin-top to create space */
+}
+
+.click--comment {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+form {
+    margin-top: 30px;
+}
+
+.comment {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+
+.input-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.button-container {
+    display: grid;
+    justify-content: flex-end;
+}
+
+/* Trong tệp blogPost.scss */
+.blog-post-header {
+    position: relative;
+}
+
+.delete-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+// ============

@@ -1,0 +1,106 @@
+.background-image {
+    background-image: url('https://images.pexels.com/photos/2330137/pexels-photo-2330137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    // background-position: center;
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.container--body {
+    display: flex;
+    justify-content: center;   
+    height: 100vh;
+   
+    /* Adjust the height as needed */
+}
+.container--register {
+    display: flex;       
+    flex-direction: column;
+    width: 940px;
+    height: 670px;
+    text-align: center;
+    background: #030303dd;
+    border-radius: 8px;
+    margin-top: 40px;
+    box-shadow: 2px 1px 1px 2px rgb(77, 77, 77);
+}
+
+.register--title {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-top: 40px;
+    
+}
+
+.text--area{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-left: 74px;
+    .form--area{
+        width: 840px;
+    }
+}
+
+.form--register {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .form--name {
+        width: 400px;
+        height: 40px;
+        border-radius: 8px;
+        outline: none;
+        padding-left: 10px;
+        &::placeholder{
+            font-size:14px;
+            padding-left: 10px;
+        }
+    }
+    
+
+}
+
+.register {
+    margin-top: 30px;
+    width: 410px;
+    margin-left: 270px;
+    background: green;
+    color: #fff;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    h5{
+        margin-top: 10px;
+    }   
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.login {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    p{
+        color: #fff;
+    }
+
+    .link--to {
+        color:deepskyblue;
+        
+    }
+}
+
