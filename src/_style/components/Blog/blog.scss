@@ -1,0 +1,204 @@
+.container--blog{
+  padding-top: 100px;
+}
+.button_post {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    // padding: 50px 10px;
+    margin-left: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    
+    border-radius: 5px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    z-index: 9999;
+
+
+}
+
+
+.blog {
+    // styles for the main container
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.blog-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.blog-post-container {
+    // styles for each individual blog post container
+    margin-bottom: 20px;
+    // border: 1px solid #ccc;
+    padding: 10px;
+    .blog-comment {
+
+      // position: fixed;
+      // left: 25%;
+      // top: 10%;
+      border: 1px solid;
+      margin-left: 310px;
+      z-index: 9999;
+      background-color: #fff;
+      width: 780px;
+      height: auto;
+      padding-bottom: 90px;
+        
+      form {
+          width: 500px;
+          height: 250px;
+          
+
+          .comment {
+              width: 400px;
+              margin-left: 40px;
+          }
+          .d-flex{
+              display: flex;
+              gap: 10px;
+          }
+
+          .btn-post {
+            margin-left: 40px;
+            min-width: 100px;
+            height: 35px;
+            background: #4CAF50;
+            color: #FFFFFF;
+            font-size: 16px;
+            border-radius: 8px;
+            outline: none;
+            border: none;
+        }
+        .btn-cancel {
+          // margin-left: 40px;
+          min-width: 100px;
+          height: 35px;
+          background: #fb1905;
+          color: #FFFFFF;
+          font-size: 16px;
+          border-radius: 8px;
+          outline: none;
+          border: none;
+        }
+      }
+  }
+}
+
+.comment-section {
+    position:relative;
+    h3{
+      padding-left: 40px;
+      padding-bottom: 5px;
+    }
+  
+    .blog-comment-list{
+        width: 780px;
+        position: absolute;
+        z-index: 1;
+        top: 10%;
+        margin-left: 400px;
+        min-height:200px;
+        width:500px;
+        background: #4CAF50;
+        .comment--backlog{
+            margin-left: 10px;
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            h6{
+                display: flex;
+                margin-bottom: 5px;
+            }
+             p {
+                margin: 0;
+              }
+            
+        }
+    }
+}
+.click--comment{
+    margin-left: 230px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    padding-top: 3px;
+    font-weight: bold;
+     color: #4CAF50;
+     font-size: large;
+     
+    
+}
+.blog-comment {
+    width: 780px;
+    /* CSS cho phần tổng thể */
+    
+  }
+  
+  .comment-section {
+    margin-bottom: 20px;
+    
+  }
+  
+  .comment {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .comment--backlog {
+    margin-bottom: 10px;
+  }
+  .comment-list-section {
+    width: 780px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #ffff;
+    height: 200px; /* Set a fixed height for the container */
+    overflow-y: auto; /* Add scrollbar when content exceeds the container height */
+  }
+
+  .comment--backlog {
+    // border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .comment--backlog img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+ 
+ 
+  
+  

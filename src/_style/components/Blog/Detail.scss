@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  .row{
+    display: flex;
+    justify-content: space-between;
+    .left{
+    width: 750px;
+    margin-left: 90px;
+    box-shadow: 1px 2px 0px 0px #cbc3c3;
+    border: 1px solid #e9e2e2;
+    border-radius: 8px; 
+    hr{
+      border-color: #ffffff;
+    }
+  }
+   .right {
+    width: 500px;
+    margin-right: 90px;
+    height: 100%;
+    padding: 15px 20px;
+    box-shadow: 1px 2px 0px 0px #cbc3c3;
+    border: 1px solid #e9e2e2;
+    border-radius: 8px;
+    h2 {
+        margin-top: 1rem;
+        text-align: center;
+        color: #191c1e;
+    }
+    img{
+      height: 500px;
+      padding-top: 5px;
+      width: 450px;
+    }
+
+    }
+  }
+}
+.container_detail {
+  top: 0px;
+  left: 0px;
+  height: 200px;
+}
+.company_detail {
+  background: #f2f5f4;
+  // border-bottom: 1px solid rgb(184, 176, 176);
+  box-shadow: 0px 2px 0px 0px #e9e2e2;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  .profile-img {
+    .card-img-top-img {
+      padding: 10px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-left: 230px;
+      position: relative;
+      top: 25px;
+    }
+    .card-title {
+      position: relative;
+      font-weight: bold;
+      font-size: 38px;
+      padding-left: 90px;
+      left: 420px;
+      bottom: 170px;
+      color: #080000;
+    }
+  }
+  .col-md-6{
+    margin-top: 50px;
+    padding-top: 50px;
+
+    .card{
+      padding: 8px;
+      color: #080808;
+      margin-right: 280px;
+      span{
+        margin-bottom: 10px;
+        h5{
+          font-size: 18px;
+          color: #080808;
+        }
+        
+      }
+    }
+  }
+
+}
+
+.company-information {
+  min-height: 100vh !important;
+  padding: 40px 36px;
+  h2{
+    color:#080000
+  }
+  h3 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  div {
+    margin: 24px 0;
+  }
+  p.card-text {
+    max-width: 750px;
+    font-size: 1px;
+    color: black
+  }
+  .job {
+    max-width: 300px;
+   min-height: 100px;
+    padding-top: 8px;
+    // padding-left: 20px;
+    .row-vieclam {
+      // padding: 10px 0px 20px 8px;
+      .job_position {
+        a {
+          text-decoration: none;
+          font-size: 20px;
+          color: #0d6efd;
+          font-weight: bold;
+        }
+      }
+      // .card-texts {
+      //   margin: 10px 0;
+      //   font-size: 18px;
+      //   color: bla
+        
+      // }
+      &:hover {
+        background: #ccc;
+        border-radius: 4px;
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+  .card-texts {
+    font-size: 18px;
+  }
+
+
+  .btn-warning {
+    margin-bottom: 0px;
+    margin: 48px 0;
+    border: none;
+    border-radius: 6px;
+    background: #26AE61;
+    width: 170px;
+    height: 38px;
+    line-height: 38px;
+    display: flex;
+    justify-content: center;
+    a {
+      text-decoration: none;
+      font-size: 16px;
+      color: #FFFFFF;
+      
+    }
+    &:hover{
+      background-color: #237f4b;
+    }
+  }
+}
+
+  @media only screen and (min-width: 46.25em) and (max-width:63.9375em){
+    .company_detail{
+      display: grid;
+      grid-template-columns: 2fr 2fr 2fr;
+      .profile-img {
+        width: 250px;
+        .card-img-top-img {
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          object-fit: cover;
+          margin-left: 50px;
+          position: absolute;
+          top: 25px;
+        }
+        .card-title {
+          position: absolute;
+          font-weight: bold;
+          font-size: 20px !important;
+          padding-left: 10px;
+          top: 13%;
+          left: 20px;
+          color: #080000;
+        }
+      }
+      .col-md-6{
+        margin-top: 20px;
+        padding-top: 20px;
+        width: 250px;
+        .card{
+          padding: 8px;
+          color: #080808;
+          margin-right: 80px;
+          span{
+            margin-bottom: 10px;
+            h5{
+              font-size: 18px;
+              color: #080808;
+            }
+          }
+        }
+      }
+    
+      
+     
+    }
+      .container{
+        .row{
+          display: block;
+          .left{
+            margin: 0 auto;
+            margin-bottom: 15px;
+          }
+          .right{
+            margin: 0 auto;
+           
+          }
+        }
+        
+        
+      }
+  }
