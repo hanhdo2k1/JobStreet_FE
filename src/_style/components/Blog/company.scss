@@ -1,0 +1,101 @@
+a {
+  text-decoration: none;
+}
+.justify-content-center{
+    padding-top: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .col-sm-6{
+      padding-top: 15px;
+      input{
+        height: 50px;
+        width: 450px;
+        border-radius: 8px;
+        outline: none;
+        margin-top: 110px;
+       margin-right: 530px;
+        padding-left: 10px;
+      }
+    }
+}
+div.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  gap: 30px;
+  padding: 30px;
+  border: none;
+}
+
+.content {
+  border: 1px solid rgb(129, 129, 129);
+  padding: 8px 12px;
+  border-radius: 5px;
+  height: 220px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .time {
+      color: black;
+      padding-left: 5px;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+      
+    }
+    display: grid;
+    grid-template-columns: 12% 75% 13%;
+    .company_name {
+      margin-left: 20px;
+      a {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+    .IconStyle {
+      color: black;
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+    .inform {
+      color: black;
+    }
+    .job {
+      a {
+        color: black;
+        text-decoration: solid;
+      &:hover {
+        color: green;
+      }}
+    }
+  }
+  &:hover {
+    border: 1px solid black;
+    box-shadow: 0 0 4px 2px gray;
+  }
+  &:hover .company_name a.none{
+    color: green;
+
+  }
+}
+
+img.icon {
+  width: 100%;
+  height: 70%;
+  margin-top: 10px;
+}
+h1{
+  margin-left: 30px;
+}
+

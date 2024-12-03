@@ -1,0 +1,57 @@
+.container--height{
+    height: 100vh;
+}
+.featured--job{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    .container--detail{
+        margin-left: 50px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        border: 1px solid gray;
+        border-radius: 4px;
+        min-height: 355px;
+        width: 300px;
+
+        .job--wrapper--card__left{
+            display: flex;
+            // border: 1px solid;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+           
+        }
+        &:hover{
+            border: 1px solid black;
+            box-shadow: 0 0 4px 2px gray;
+        }
+        .job--wrapper--card--right{
+            margin-top: 30px;
+            .job--wrapper--card--right--part-1{
+                line-height: 40px;
+                .btn-success{
+                    display: block;
+                    width: 100px;
+                    height: 40px;
+                    padding: 2px !important;
+                    border: none;
+                    border-radius: 4px;
+                    text-align: center;
+                    background: #26AE61;
+                    color: white;
+                    padding: 20px 0;
+                    
+                    p{
+                       padding:-150px !important
+                    // margin-bottom: 50px;
+                    }
+                }
+
+            }
+        }
+    }
+}
